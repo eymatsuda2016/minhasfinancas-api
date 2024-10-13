@@ -1,4 +1,4 @@
-package com.eduardomatsuda.minhasfinancas.model.repositories;
+package com.eduardomatsuda.minhasfinancas.model.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

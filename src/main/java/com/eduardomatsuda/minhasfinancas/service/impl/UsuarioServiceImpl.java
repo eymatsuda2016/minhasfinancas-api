@@ -1,11 +1,9 @@
 package com.eduardomatsuda.minhasfinancas.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.eduardomatsuda.minhasfinancas.exception.RegraNegocioException;
 import com.eduardomatsuda.minhasfinancas.model.entity.Usuario;
-import com.eduardomatsuda.minhasfinancas.model.repositories.UsuarioRepository;
+import com.eduardomatsuda.minhasfinancas.model.repository.UsuarioRepository;
 import com.eduardomatsuda.minhasfinancas.service.UsuarioService;
 
 
@@ -14,7 +12,7 @@ public class UsuarioServiceImpl implements UsuarioService{
 	
 	private UsuarioRepository  repository;
 	
-	
+
 	public UsuarioServiceImpl(UsuarioRepository repository) {
 		super();
 		this.repository = repository;
